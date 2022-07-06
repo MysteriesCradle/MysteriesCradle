@@ -1,0 +1,108 @@
+.colors-bluedark{
+    background-image: linear-gradient( to right, rgb(8, 1, 17), rgb(31, 11, 58), rgb(82, 51, 122));
+}
+.mybutton-one{
+    border: 0px;
+    background-color: transparent;
+    padding: 3px;
+    text-align: center;
+}
+
+#menu{
+    color: white;
+    transition: all .3s;
+    border-radius: 10%;
+    margin: 2px;
+}
+#menu:hover{
+    color: blueviolet;
+}
+.LogCad{
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(175, 175, 175);
+    font-size: large;
+    text-decoration: none;
+    transition: all .2s;
+}
+.LogCad:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+.bPesquisa {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 0px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.bPesquisa::shadow{
+    border: none;
+}  
+.roxo{
+    background-color: transparent ;
+    transition: background .5s;
+}
+.roxo:hover{
+    background-color: rgb(59, 10, 47);
+}
+
+.header1{
+    background-color: rgb(0, 0, 0);
+    background-image: url('../imagens/background3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 10%;
+} 
+ 
+.header1 h1{ 
+    text-align: center;
+    color: gold;
+    font-size: 2em;
+    margin-top: 12%;
+    text-shadow: 2px 2px 2px black;
+}
+.header1 h2{ 
+    text-align: center;
+    color: gold;
+    font-size: 1.5em;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-shadow: 2px 2px 2px black;
+}
+
+.burguer{
+    background-color: rgb(18, 1, 29);
+}
+.criarC{
+    margin-left: 10%;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+
+footer{
+    background-image: linear-gradient( to right, rgb(12, 12, 12), rgb(24, 11, 1), rgb(39, 21, 4), rgb(59, 39, 10));
+    padding: 10%;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 1074px){
+    .header1{
+        
+        background-image: url('../imagens/background4.png');
+    }
+}

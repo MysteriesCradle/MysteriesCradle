@@ -1,0 +1,24 @@
+form{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+input{
+    max-width: 400px;
+}
+.a{
+    color: white;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.a:hover{
+    color: blueviolet;
+    text-decoration: none;
+}
+@media screen and (max-width: 450px){
+    input{
+        max-width: 300px;
+    }
+}
